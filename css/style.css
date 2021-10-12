@@ -1,0 +1,915 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    bottom: 0;
+    top: 0;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+
+.header{
+    background-color: #0b1e3a;
+    padding: 30px 0 ;
+    position: relative;
+    overflow: hidden;
+}
+
+.login{
+    width:70px;
+    height: 30px;
+    background-color: #ff6f00;
+    color: white;
+    float: right;
+    margin: 0 0 0 5px;
+    font-weight: bold;
+    border: 2px solid white;
+
+}
+
+.login:hover{
+    background-color: gold;
+    transition: .5s all ease;
+    border: 0;
+    
+}
+
+
+
+
+
+.navbar{
+    background-color: white;
+    box-shadow: 0 5px 5px 2px rgba(0, 0, 0, .05);
+    
+   
+}
+
+.navbar-brand{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 2px 0 0 0;
+
+}
+
+
+
+.navbar-brand span{
+    background-color: #ff6f00;
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+}
+
+.nav-link{
+    color: black;
+    font-size: 15px;
+}
+
+.nav-link:hover{
+    color: gold;
+    transition: .5s all ease;
+}
+
+.navbar-toggler{
+    background-color: #ff6f00;
+}
+
+.fa-bars{
+    color: white;
+}
+
+.btn{
+    background-color: #ff6f00;
+    color: white;
+}
+
+.btn:hover{
+    background-color: gold;
+    color: black;
+    transition: .5s all ease;
+}
+
+.form-control{
+    border: 2px solid #0b1e3a;
+}
+
+
+.main{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    box-shadow: 2px 5px 5px 2px rgba(0, 0, 0, .1);
+    right: 10px;
+    top: 90.7%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+
+
+.sub{
+    width: 70px;
+    height: 30px;
+    background-color: #ff6f00;
+    color: white;
+    border: transparent;
+}
+
+.sub:hover{
+    background-color: gold;
+    transition: .5s ease all;
+    color: black;
+}
+
+
+.fa-sms{
+    color: #ff6f00;
+    font-size: 40px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    
+}
+
+.fa-sms:hover{
+    color: gold;
+}
+
+
+.firstpage{
+    background-color: #0b1e3a;
+    padding: 150px 0;
+}
+
+
+
+.prg1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.prg2{
+    color: white;
+    font-size: 23px;
+    margin: 40px 0 40px 0;
+}
+
+
+.bt{
+    width: 150px;
+    height: 40px;
+    background-color: #ff6f00;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.bt:focus{
+    outline: none;
+}
+
+.bt:hover{
+    background-color: gold;
+    color: black;
+    font-weight: bold;
+    transition: .5s all ease;
+}
+
+
+
+.image{
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    position: relative;
+    margin: 15px 0 0 0;
+
+    
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+@media (max-width:768px) {
+
+    .image{
+        margin: 40px 0 0 0;
+    }
+    
+}
+
+
+
+
+.secondpage{
+    padding: 40px 0 ;
+    padding-top: 100px;
+}
+
+.secondpage p{
+    color: #0b1e3a;
+    text-align: center;
+   
+
+}
+
+.secondpage .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.secondpage .prgraph{
+    font-size: 15px;
+    margin: 0 0 40px 0;
+}
+
+
+.content{
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #0b1e3a;
+}
+
+.content .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+.content .prgraph{
+    font-size: 15px;
+    color: white;
+    margin: 0 0 50px 0;
+    text-align: left;
+}
+
+
+.image1{
+    display: block;
+    padding: 100px;
+    background-color: #0b1e3a;
+    width: 50%;
+    position: relative;
+    
+    
+}
+
+.secondpage img{
+    height: 100%;
+    width: 100%;
+   border: 5px solid #ff6f00;
+}
+
+.image2{
+    padding: 100px;
+    background-color: #0b1e3a;
+    width: 50%;
+    position: relative;
+    margin: 20px 0 20px 0;
+    
+}
+
+.image3{
+    padding: 100px;
+    background-color: #0b1e3a;
+    width: 50%;
+    position: relative;
+}
+
+
+@media (min-width:992px) {
+    .image1{
+        padding: 300px 0 0 0; 
+        width: 60%;
+        margin: 0 0 0 160px;
+    }
+
+    .image2{
+
+        margin: -100px 0 0 30px;
+        
+    }
+
+    .image3{
+
+        margin: -50px 0 0 230px;
+        width: 30%;
+    
+      
+    }
+    
+}
+
+@media (max-width:768px) {
+    .image1{
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+
+    .image2{
+
+        width: 100%;
+        
+    }
+
+    .image3{
+
+        width: 100%; 
+    }
+
+   
+    
+}
+
+
+.About{
+    padding: 100px 0;
+    background-color: #0b1e3a;
+    position: relative;
+    
+   
+}
+
+.About p{
+    text-align: center;
+    color: white;
+}
+
+.About .title{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.About .prgraph{
+    font-size: 15px;
+    margin: 0 0 40px 0;
+}
+
+
+.feat{
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    position: relative;
+    margin: 30px 0 0 0;
+    
+}
+
+
+
+.icon{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -14%;
+    transform: translate(-50%, -14%);
+    background-color: #ff506a;
+    
+}
+
+
+.fa-smile-beam{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mov span{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity: .5;
+}
+
+.mov p{
+    color: #ff506a;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    font-size: 15px;
+}
+
+.icon2{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -14%;
+    transform: translate(-50%, -14%);
+    background-color: #229e1e;
+    font-size: 15px;
+}
+
+
+.fa-file{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mov2 span{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity: .5;
+}
+
+.mov2 p{
+    color: #229e1e;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    font-size: 15px;
+    
+}
+
+.icon3{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -14%;
+    transform: translate(-50%, -14%);
+    background-color: #e59731;
+}
+
+.fa-headset{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mov3 span{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity: .5;
+}
+
+.mov3 p{
+    color: #e59731;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    font-size: 15px;
+}
+
+.icon4{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -14%;
+    transform: translate(-50%, -14%);
+    background-color: #31dfe5;
+}
+
+.fa-users{
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mov4 span{
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    opacity: .5;
+}
+
+.mov4 p{
+    color: #31dfe5;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    font-size: 15px;
+}
+
+@media (max-width:992px) {
+
+   .feat{
+       margin: 50px 0 0 0;
+   }
+    
+}
+
+
+
+
+.Services{
+    padding: 100px 0 70px 0;
+    background-color: white;
+}
+
+.Services .title{
+    color: #0b1e3a;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Services .prgraph{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.Services .ser{
+    background-color: white;
+    padding: 100px 0 50px 0;
+    width: 100%;
+    margin: 20px 0 0 0;
+    position: relative; 
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, .05);
+    cursor: pointer;
+
+   
+    
+}
+
+
+
+
+.Services .ser .circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ff6f00;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
+
+.circle .fa-layer-group,.fa-palette,.fa-mobile-alt, .fa-american-sign-language-interpreting, .fa-photo-video, .fa-pencil-ruler, .fa-address-card, .fa-bezier-curve{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+
+}
+
+
+
+
+
+.Services .ser p{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 1.5rem;
+    font-weight: bold;
+}
+
+.Services .ser .pr{
+
+    color: black;
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+    top: 1.5rem;
+   
+
+}
+
+.Services .ser2{
+    background-color: white;
+    padding: 100px 0 50px 0;
+    width: 100%;
+    margin: 20px 0 0 0;
+    box-shadow: 2px 5px 5px 5px rgba(0, 0, 0, .05);
+    cursor: pointer;
+  
+}
+
+
+
+.Services .ser2 .circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #ff6f00;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.Services .ser2 .title{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 2rem;
+}
+
+.Services .ser2 .pr{
+
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+    top: 2rem;
+    
+}
+
+
+
+.contact{
+    padding: 50px 0 0 0;  
+    padding-bottom: 70px;  
+    padding-top: 100px;
+    background-color: #0b1e3a;
+    
+
+}
+
+.contact p{
+    text-align: center;
+    color: white;
+    
+  
+}
+
+.contact .title{
+    font-size: 20px;
+    
+}
+
+.contact .prgraph{
+    font-size: 15px;
+}
+
+.cont{
+    background-color: white;
+}
+
+.cont .form-group label{
+    color: black;
+}
+.contact .modal-body .form-group .form-control{
+    direction: rtl;
+
+}
+
+
+
+
+.right{
+    width: 100;
+}
+
+
+
+
+
+/* ---------------------------- Start My-Expirence Pge Design in css ------------------------ */
+
+.My-Experience{
+    position: relative;
+    padding: 100px 0 70px 0;
+    background-color: #0b1e3a;
+    
+}
+
+h5{
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: white;
+}
+
+.exp{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 40px 0;
+}
+
+
+.card {
+   border: 0;
+   border-radius: 0.1875rem;
+   display: inline-block;
+   position: relative;
+   overflow: hidden;
+   width: 100%;
+
+
+ }
+ 
+
+.progress-container {
+   margin-bottom: 20px;
+   font-size: 18px;
+   font-weight: bold
+ }
+ 
+
+ /* move the shap */
+ .progress-container .progress-bar {
+   height: 5px;
+   -webkit-transform: scaleX(0);
+           transform: scaleX(0);
+   -webkit-transition: -webkit-transform 2s ease-in-out;
+   transition: -webkit-transform 2s ease-in-out;
+   transition: transform 2s ease-in-out;
+   transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+   -webkit-transform-origin: 0% 0%;
+           transform-origin: 0% 0%;
+ }
+ 
+
+ /* design of shap*/
+ .progress-container .progress {
+   height: 5px;
+   font-size: 18px;
+ }
+ 
+ .progress-container .aos-animate {
+   -webkit-transform: scaleX(1);
+           transform: scaleX(1);
+ }
+
+ 
+.progress-container {
+   position: relative;
+ }
+
+ 
+
+ /* Size Of Shap */
+
+ .progress-container .progress {
+   height: 5px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+           box-shadow: none;
+   background: rgba(222, 222, 222, 0.8);
+   margin-top: 14px;
+ }
+ 
+ 
+
+ /* Value Design */
+ 
+ .progress-container .progress .progress-value {
+   position: absolute;
+   top: 12px;
+   right: 0;
+   color: #888;
+   font-size: 0.8571em;
+ }
+ 
+ 
+ /* color of shap */
+ .progress-container.progress-primary .progress-bar {
+   background: #ff6f00;
+ }
+ 
+ /* color of value */
+ .progress-container.progress-primary .progress-value,
+ .progress-container.progress-primary .progress-badge {
+   color: #1e3c72;
+   font-size: 12px;
+ }
+ 
+
+
+/* ----------------------------- End My-Expirence Pge Design in css -------------------------- */
+
+
+footer{
+    background-color: white;
+    padding: 20px;
+  
+}
+
+.Social{
+    display: flex;
+    justify-content: center;
+    
+  
+}
+
+.Social span{
+    display: inline-block;
+    color: white;
+    position: relative;
+     margin:10px 10px 0 0;
+  
+  }
+  
+  .Social span div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    
+  }
+  
+  .Social span div:hover{
+    background-color: gold;
+    transition: .5s all ease;
+  
+  }
+  
+  .Social a {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+    font-weight: 900;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  
+   
+  }
+  
+  .Facebook{
+    background-color: rgb(55, 88, 143);
+  }
+  
+  .Twitter{
+    background-color: rgb(93, 154, 255);
+  }
+  
+  .instgram{
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  }
+  
+  .google{
+   background-color: #ff0844
+  }
+  
+  .Whatsapp{
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+    
+  }
+  
